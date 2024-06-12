@@ -9,4 +9,5 @@ class DirectorController < ApplicationController
 
   def eldest_director
     render ({ :template => "msm_templates/eldest_director" })
+  end
 end
