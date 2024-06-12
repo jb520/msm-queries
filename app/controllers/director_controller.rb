@@ -1,5 +1,5 @@
 class DirectorController < ApplicationController
-  def list_directors
+  def index
     render ({ :template => "msm_templates/directors_list"})
   end
 
